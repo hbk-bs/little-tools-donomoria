@@ -6,7 +6,7 @@ let paintColor = '#ff6347';
 colorInput.value = paintColor;
 
 function setup() {
-    const canvas = createCanvas(500,500);
+    const canvas = createCanvas(200,200);
     canvas.parent ('sketch');
     console.log('saveButton');
 
