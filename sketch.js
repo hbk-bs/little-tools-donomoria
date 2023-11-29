@@ -32,8 +32,8 @@ function mouseDragged() {
  circle(mouseX, mouseY,10);
  line(pmouseX, pmouseY, mouseX, mouseY);
  for (let i = 0; i< 100; i++){
-    point(mouseX + random(-10,10),
-    mouseY + random(-10,10),)
+    point(mouseX + random(-5,5),
+    mouseY + random(-5,5),)
  }
 function mouseDragged(){
     save('image.png')
