@@ -29,7 +29,7 @@ function draw() {
 
 function mouseDragged() {
     fill(paintColor);
- circle(mouseX, mouseY,5);
+ circle(mouseX, mouseY,10);
  line(pmouseX, pmouseY, mouseX, mouseY);
  for (let i = 0; i< 100; i++){
     point(mouseX + random(-10,10),
