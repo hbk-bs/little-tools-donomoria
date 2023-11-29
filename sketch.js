@@ -6,7 +6,7 @@ let paintColor = '#ff6347';
 colorInput.value = paintColor;
 
 function setup() {
-    const canvas = createCanvas(200,200);
+    const canvas = createCanvas(500,500);
     canvas.parent ('sketch');
     console.log('saveButton');
 
@@ -29,7 +29,7 @@ function draw() {
 
 function mouseDragged() {
     fill(paintColor);
- circle(mouseX, mouseY,10);
+ circle(mouseX, mouseY,5);
  line(pmouseX, pmouseY, mouseX, mouseY);
  for (let i = 0; i< 100; i++){
     point(mouseX + random(-10,10),
