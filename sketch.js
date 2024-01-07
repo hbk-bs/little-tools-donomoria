@@ -6,7 +6,7 @@ let paintColor = '#ff6347';
 colorInput.value = paintColor;
 
 function setup() {
-    createCanvas(windowWidth * 0.48, windowHeight * 0.48).parent('sketch');
+    createCanvas(windowWidth * 0.45, windowHeight * 0.45).parent('sketch');
     background(255);
 
     saveButton.addEventListener("click", () => {
